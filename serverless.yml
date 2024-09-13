@@ -1,4 +1,4 @@
-service: ce6-12sept-sls
+service: ce6-joannew-12sept-sls
 frameworkVersion: '3'
 
 provider:
