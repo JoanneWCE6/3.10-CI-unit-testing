@@ -16,5 +16,16 @@ functions:
           path: /
           method: get
 
+resources:
+  Resources:
+    DelfrinandoEmailSns:
+      Type: AWS::SNS::Topic
+      Properties:
+        TopicName: joannew-email-topic
+        Subscription: 
+          - Protocol: "email"
+            Endpoint: "joanne.0326@gmail.com"
+
+
 plugins:
   - serverless-offline
