@@ -22,5 +22,7 @@ jobs:
     - name: Install dependencies
       run: npm install # Install project dependencies
 
+  unit-test:
+   runs-on: ubuntu-latest
     - name: Run tests
       run: npm test # Run unit tests
