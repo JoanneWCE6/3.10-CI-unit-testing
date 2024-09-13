@@ -24,7 +24,7 @@ jobs:
 
   unit-test:
    runs-on: ubuntu-latest
-   needs: Install dependencies
+   needs: Run Unit Tests
    steps:
     - name: Checkout code
       uses: actions/checkout@v3 
