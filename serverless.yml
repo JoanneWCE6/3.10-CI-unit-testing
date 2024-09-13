@@ -1,10 +1,20 @@
-service: serverless3-10
+service: ce6-12sept-sls
 frameworkVersion: '3'
 
 provider:
   name: aws
   runtime: nodejs18.x
+  region: ap-southeast-1
 
 functions:
-  function1:
-    handler: index.handler
+  api:
+    handler: handler.handler
+    environment:
+      CLASS_NAME: "CE 6-Joannew"
+    events:
+      - httpApi:
+          path: /
+          method: get
+
+plugins:
+  - serverless-offline
