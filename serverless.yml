@@ -18,7 +18,7 @@ functions:
 
 resources:
   Resources:
-    DelfrinandoEmailSns:
+    JoannewEmailSns:
       Type: AWS::SNS::Topic
       Properties:
         TopicName: joannew-email-topic
