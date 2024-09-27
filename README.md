@@ -10,9 +10,3 @@ $ npm install --save-dev jest
 
 $ jest
 
-
-
-![alt sample][def]
-
-
-[def]: image-1.png
