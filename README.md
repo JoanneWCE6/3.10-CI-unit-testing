@@ -12,4 +12,7 @@ $ jest
 
 
 
-![alt text](image-1.png)
+![alt sample][def]
+
+
+[def]: image-1.png
